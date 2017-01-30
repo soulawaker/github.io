@@ -1,5 +1,5 @@
-url: https://soulawaker.me
-enforce_ssl: soulawaker.me
+url: https://blog.soulawaker.me
+enforce_ssl: blog.soulawaker.me
 
 theme: jekyll-theme-midnight
 name: john doe, Test Page
