@@ -1,3 +1,6 @@
+url: https://soulawaker.me
+enforce_ssl: soulawaker.me
+
 theme: jekyll-theme-midnight
 name: john doe, Test Page
 markdown: kramdown
