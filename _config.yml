@@ -1,3 +1,4 @@
 theme: jekyll-theme-midnight
 name: john doe, Test Page
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
