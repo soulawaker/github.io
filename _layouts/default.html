@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<script type="text/javascript">
+			    var host = "blog.soulawaker.me";
+			    if ((host == window.location.host) && (window.location.protocol != "https:"))
+				window.location.protocol = "https";
+			</script>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/main.css"/>
+			<link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
 		</head>
 		<body>
 			<nav>
@@ -21,8 +27,8 @@
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+	        		<li><a href="mailto:soulawaker@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/soulawaker">github.com/soulawaker</a></li>
 				</ul>
 			</footer>
 		</body>
